@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-ssh -v root@192.168.2.204 << EOF
+ssh -v root@54.166.247.186 << EOF
   
   echo '1. Updating sources'
   cd /anandhi-credible/circleci-demo/
