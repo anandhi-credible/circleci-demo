@@ -8,8 +8,8 @@ ssh -v root@54.166.247.186 << EOF
   git checkout --force master
   git pull
 
-  echo "2. Restart apache"
-  sudo apache2ctl graceful
+  #echo "2. Restart apache"
+  #sudo apache2ctl graceful
 
   echo 'Done!'
   echo 'Done!'
